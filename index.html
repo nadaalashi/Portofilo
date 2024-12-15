@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nada AL-Ashi</title>
+    <!-- bootstrap link  -->
+     <link rel="stylesheet" href="css/bootstrap.css">
+
+     <!--fontawesome link  -->
+     <link rel="stylesheet" href="css/font-awesome.min.css">
+
+     <!-- css style link  -->
+      <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- start header section  -->
+   <section id="header">
+    <div class="container">
+    <!-- navbar -->
+     <nav>
+        <a href="#" class="logo"><span>N</span>ada.</a>
+        <ul id="sideMenu">
+            <li><a href="#home" class = "active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa fa-times" onclick="closeNav()"></i>
+        </ul>
+        <i class="fa fa-bars" onclick="openNav()"></i>
+     </nav>
+    </div>
+   </section>
+  <!-- end header section  -->
+   <!-- start home section  -->
+    <section class="home" id="home">
+
+            <div class="homeContent">
+                <p>Forntend web developer and Data analyst</p>
+                <h1>Hi, I'm <span>Nada</span></h1>
+                <h2>From Palestine</h2>
+            </div>
+            <div class="homeImage">
+                <img src="images/bg1.png" alt="home">
+            </div>
+    </section>
+   <!-- end home section  -->
+
+   <!--start about section  -->
+   <section id="about" class="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/bg5.jpg" alt="about">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am a Forntend web developer and data analyst. I have been working in the field of web development for over a year now. I have a strong background in programming and have experience in various programming languages such as JavaScript, HTML and CSS. I am passionate about web development and am constantly learning new technologies and techniques to improve my skills. I am also a data analyst and have experience working with large datasets using excel, power bi and python. I am always looking for new opportunities to learn and grow in my field.</p>
+
+                <div class="tabs">
+                    <p class="tabLinks activeLink" onclick="opentab('skills')">Skills</p>
+                    <p class="tabLinks" onclick="opentab('experience')">Experience</p>
+                    <p class="tabLinks" onclick="opentab('education')">Eduqation</p>
+                </div>
+
+                <div class="tabsContent activeTab" id="skills">
+                    <ul>
+                        <li>
+                            <span>Frontend Web Development</span>
+                            <p>Proficient in JavaScript, HTML, and CSS for creating responsive and user-friendly web applications.</p>
+                        </li>
+                        <li>
+                            <span>Programming Expertise</span>
+                            <p>Strong foundation in programming with experience across multiple languages and frameworks.</p>
+                        </li>
+                        <li>
+                            <span>Data Analysis</span>
+                            <p>Skilled in analyzing and interpreting large datasets using tools like Excel, Power BI, and Python.</p>
+                        </li>
+                        <li>
+                            <span>Problem-Solving</span>
+                            <p>Adept at troubleshooting and solving complex technical issues in web development and data analysis.</p>
+                        </li>
+                        <li>
+                            <span>Continuous Learning</span>
+                            <p>Committed to staying updated with the latest web technologies and data analytics techniques.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tabsContent" id="experience">
+                    <ul>
+                        <li>
+                            <span>Frontend Developer</span>
+                            <p>Over a year of hands-on experience designing and developing web interfaces that prioritize usability and responsiveness.</p>
+                        </li>
+                        <li>
+                            <span>Data Analyst</span>
+                            <p>Experience managing and analyzing large datasets to uncover trends and insights that inform decision-making.</p>
+                        </li>
+                        <li>
+                            <span>Technology Integration</span>
+                            <p>Ability to integrate data analysis insights into web development projects for improved functionality.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tabsContent" id="education">
+                    <ul>
+                        <li>
+                            <span>Bachelor's Degree in Software Engineering and Artificial Intelligence</span>
+                            <p>Graduated with a Very Good grade after completing a 5-year program.</p>
+                        </li>
+                        <li>
+                            <span>Diploma in Frontend Development</span>
+                            <p>Achieved a Good grade with a strong focus on modern web development practices.</p>
+                        </li>
+                        <li>
+                            <span>Certifications and Courses:</span>
+                            <p>React.js Development: Specialized course covering advanced frontend concepts</p>
+                            <p>Data Analysis: Comprehensive training in data analytics techniques and tools.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+   </section>
+   <!--end about section  -->
+
+    <!--start services section  -->
+    <section id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>  
+            <div class="services-list">
+                <div>
+                    <i class="fa fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>I am a skilled web developer with a strong background in HTML, CSS, and JavaScript. I have experience working with various frameworks and libraries, and I am proficient in creating responsive and user-friendly web interfaces. I am also familiar with modern web development practices and best practices.</p>
+                    
+                </div>
+                <div>
+                    <i class="fa fa-bar-chart"></i>
+                    <h2>Data Analysis</h2>
+                    <p>I have a strong background in data analysis and have experience working with large datasets using Excel, Power BI, and Python. I am skilled in cleaning, transforming, and visualizing data to uncover insights and patterns. I am also comfortable with statistical analysis and machine learning techniques.</p>
+                </div>
+            </div>
+        </div>                                           
+    </section>
+    <!--end services section  -->
+
+    <!--start portfolio section  -->
+    <section id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Works</h1>   
+            <div class="work-list" id="web-dev">
+                <h1>Web Development Projects</h1>
+                <div class="web-projects">
+                    <div class="project">
+                        <img src="images/courses.png" alt="courses">
+                        <div class="layer">
+                            <h2>NUNO Courses</h2>
+                        <p>Responsive web application for online courses</p>
+                        <a href="https://nadaalashi.github.io/NUNO-courses/" target="_blank"><i class="fa fa-external-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <img src="images/eventSite.png" alt="eventSite">
+                        <div class="layer">
+                            <h2>Event Site</h2>
+                        <p>Responsive web application for event management</p>
+                        <a href="https://github.com/nadaalashi/event-site/" target="_blank"><i class="fa fa-external-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <img src="images/screencapture-file-C-Users-ASK-OneDrive-Desktop-web-FrontEnd-Folders-first-figma-project-index-html-2024-11-23-10_38_12.png" alt="figma">
+                        <div class="layer">
+                            <h2>Figma Project</h2>
+                        <p>Responsive web application for designing and prototyping</p>
+                        <a href="https://github.com/nadaalashi/first-figma-project/" target="_blank"><i class="fa fa-external-link"></i></a>
+                        </div>
+                    </div>
+                        <div class="project">
+                            <img src="images/store.png" alt="store">
+                            <div class="layer">
+                                <h2>Furniture Store</h2>
+                            <p>Responsive web application for furniture store</p>
+                            <a href="https://github.com/nadaalashi/Furniture-store/" target="_blank"> <i class="fa fa-external-link"></i></a>
+                            </div>
+                        </div>
+                        
+                    <div class="project">
+                        <img src="images/todoList.png" alt="todoList">
+                        <div class="layer">
+                            <h2>To-Do List</h2>
+                        <p>Responsive web application for managing to-do lists</p>
+                        <a href="https://github.com/nadaalashi/to-do-list/" target="_blank"><i class="fa fa-external-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <img src="images/cruds.png" alt="cruds">
+                        <div class="layer">
+                            <h2>CRUDS</h2>
+                        <p>Responsive web application for managing data</p>
+                        <a href="https://github.com/nadaalashi/CRUDS/" target="_blank"><i class="fa fa-external-link"></i></a> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="work-list" id="data-analysis"></div>
+    </section>
+    <!--end portfolio section  -->
+
+
+    <!--start contact section  -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fa fa-paper-plane"></i> aalashinada034@gmail.com</p>
+                    <p> <i><i class="fa fa-phone"></i></i> +972599438629</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=61550936616461&mibextid=ZbWKwL"><li class="fa fa-facebook"></li></a>
+                    <a href="https://x.com/NadaALAshi1?t=613mWU8jjObyNhBYNVUJhA&s=09"><li class="fa fa-twitter"></li></a>
+                    <a href="https://www.instagram.com/nada_al_ashi/profilecard/?igsh=MW03Nnprem9oMDJsZw=="><li class="fa fa-instagram"></li></a>
+                    <a href="t.me/nadaamjad"><li class="fa fa-telegram"></li></a>
+                    <a href="https://www.linkedin.com/in/nada-a-al-ashi-326758282/"><li class="fa fa-linkedin"></li></a>
+                    <a href="https://wa.me/qr/55QHWVLOSHJVC1"><li class="fa fa-whatsapp"></li></a>
+                    </div>
+                    <a href="images/CV.pdf" download class="btn btn-success">Download CV</a>
+                </div>
+                
+            </div>
+            
+        </div>
+        <div class="copyright">
+                <p>Copyright © 2023 Nada AL-Ashi</p>
+            </div>
+    </section>
+    <!--end contact section  -->
+
+    <!-- bootstrap js link  -->
+     <script src="js/bootstrap.js"></script>
+
+     <!-- js link  -->
+      <script src="js/index.js"></script>
+</body>
+</html>
